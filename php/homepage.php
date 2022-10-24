@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap 5 Website Example</title>
+  <title>Lab #1</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -18,29 +18,32 @@
 <div class="p-5 bg-primary text-white text-center">
   <h1>Laboratorio No. 1</h1>
   <p>Ejercicios Varios Del Curso De Programacion Avanzada</p> 
+  
 </div>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <div class="container-fluid">
     <ul class="navbar-nav">
+
       <li class="nav-item">
-        <a class="nav-link active" href="#">Inicio</a>
+        <a class="nav-link active" href="homepage.php">Inicio</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="area_triangulo.php">Area</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="calculo_salario">Salario</a>
+        <a class="nav-link" href="calculo_salario.php">Salario</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="num_mayor">Mayor</a>
+        <a class="nav-link" href="num_mayor.php">Mayor</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="par_impar">Par/Impar</a>
+        <a class="nav-link" href="par_impar.php">Par/Impar</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="suma_positivos">Suma</a>
+        <a class="nav-link" href="suma_positivos.php">Suma</a>
       </li>
+      
     </ul>
   </div>
 </nav>
@@ -54,28 +57,36 @@
       <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
       <h3 class="mt-4">Some Links</h3>
       <p>Lorem ipsum dolor sit ame.</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit,.</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit,.</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit,.</p>
       <ul class="nav nav-pills flex-column">
+
       <li class="nav-item">
-      <a class="nav-link active" href="#">Inicio</a>
+        <a class="nav-link active" href="homepage.php">Inicio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Area</a>
+        <a class="nav-link" href="area_triangulo.php">Area</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Salario</a>
+        <a class="nav-link" href="calculo_salario.php">Salario</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Mayor</a>
+        <a class="nav-link" href="num_mayor.php">Mayor</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Par/Impar</a>
+        <a class="nav-link" href="par_impar.php">Par/Impar</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Suma</a>
+        <a class="nav-link" href="suma_positivos.php">Suma</a>
       </li>
+
       </ul>
       <hr class="d-sm-none">
     </div>
+
+    
+
     <div class="col-sm-8">
       <h2>TITLE HEADING</h2>
       <h5>Title description, Dec 7, 2020</h5>
@@ -83,18 +94,43 @@
       <p>Some text..</p>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
 
-      <h2 class="mt-5">TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2020</h5>
-      <div> <img class="img-fluid" src="../resources/img/portfolio-3.jpg" alt="..." /></div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+      <div class="container mt-3">
+  <h3>Form Validation</h3>
+  <p>Try to submit the form.</p>
+    
+  <form action="/action_page.php" class="was-validated">
+    <div class="mb-3 mt-3">
+      <label for="uname" class="form-label">Username:</label>
+      <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
     </div>
-  </div>
+    <div class="mb-3">
+      <label for="pwd" class="form-label">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-check mb-3">
+      <input class="form-check-input" type="checkbox" id="myCheck"  name="remember" required>
+      <label class="form-check-label" for="myCheck">I agree on blabla.</label>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Check this checkbox to continue.</div>
+    </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
 </div>
+</div>
+</div>
+</div>
+
 
 <div class="mt-5 p-4 bg-dark text-white text-center">
   <p>Footer</p>
 </div>
+
+
 
 </body>
 </html>

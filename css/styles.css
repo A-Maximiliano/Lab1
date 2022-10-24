@@ -4,7 +4,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #3f5f7e;
   background-color: #f7f7f7;
 }
 .navbar {
@@ -62,7 +62,7 @@ header .navbar {
 }
 
 .topbar li.topbar:hover {
-  color: #1bbde8;
+  color: #248aa7;
 }
 
 .topbar ul.info i {
@@ -165,3 +165,4 @@ li {
   background: -webkit-linear-gradient(left, #54d400 48%, #1b1e21 48%);
   background: linear-gradient(45deg, #54d400 48%, #1b1e21 48%);
 }
+
