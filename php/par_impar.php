@@ -105,8 +105,17 @@ if (isset($_POST['btntri'])) {
 
 ?>
 
+<div class="col-sm-8">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2020</h5>
+      <div> <img class="img-fluid" src="../resources/img/portfolio-1.jpg" alt="..." /></div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
 
-//Footer
+</div>
+<br></br>
+
+<!-- Footer -->
 <footer class="bg-dark text-center text-white">
   <!-- Grid container -->
   <div class="container p-4 pb-0">
@@ -149,7 +158,7 @@ if (isset($_POST['btntri'])) {
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2020 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <a class="text-white" href="https://mdbootstrap.com/"></a>
   </div>
   <!-- Copyright -->
 </footer>

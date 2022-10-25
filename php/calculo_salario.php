@@ -60,10 +60,10 @@
             <div class="form-gorup">
                 
             <label>Salario:</label>
-            <input type="number" name="ladotri" id="ladotri" >
+            <input type="number" name="salario" id="salario" >
             <br></br>
             <label>Impuesto:</label>
-            <input type="number" name="alturatri" id="alturatri">
+            <input type="number" name="impuesto" id="impuesto">
             <br></br>
             <input type="submit" name="btntri" value="Calcular">
             
@@ -80,13 +80,13 @@ if (isset($_POST['btntri'])) {
     $var1 ="";
     $varesultado1 ="";
     
-    if ($_POST['ladotri']==null || $_POST['alturatri']=="") {
+    if ($_POST['salario']==null || $_POST['impuesto']=="") {
     
         $var1= "Los siento no se ingreso un valor";
         $varesultado1 ="";
         
     } //validar si el valor es negativo
-    elseif ($_POST['ladotri']<=0) {
+    elseif ($_POST['salario']<=0) {
     
         $var1= "Lo siento no puede ingresar un valor negativo o cero";
         $varesultado1 ="";
@@ -97,8 +97,8 @@ if (isset($_POST['btntri'])) {
     
         $var1 = "El monto del salario con la deduccion es: ";
         //operacion de formula del area
-        $varesultado1 = ($_POST['ladotri'] * $_POST['alturatri']/100) ;
-        $varesultado2 = $_POST['ladotri'] - $varesultado1;
+        $varesultado1 = ($_POST['salario'] * $_POST['impuesto']/100) ;
+        $varesultado2 = $_POST['salario'] - $varesultado1;
     
     }
     
@@ -108,9 +108,17 @@ if (isset($_POST['btntri'])) {
     }
 
 ?>
+<div class="col-sm-8">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2020</h5>
+      <div> <img class="img-fluid" src="../resources/img/portfolio-3.jpg" alt="..." /></div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
 
+</div>
+<br></br>
 
-//Footer
+<!-- Footer -->
 <footer class="bg-dark text-center text-white">
   <!-- Grid container -->
   <div class="container p-4 pb-0">
@@ -153,7 +161,7 @@ if (isset($_POST['btntri'])) {
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2020 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <a class="text-white" href="https://mdbootstrap.com/"></a>
   </div>
   <!-- Copyright -->
 </footer>

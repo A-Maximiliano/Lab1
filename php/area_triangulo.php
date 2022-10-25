@@ -22,7 +22,7 @@
 
   <div class="p-5 bg-primary text-white text-center">
     <h1>Laboratorio No. 1</h1>
-    <p>Ejercicio: Calcular Salario</p> 
+    <p>Ejercicio: Calcular Area</p> 
   </div>
 
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -112,11 +112,12 @@ if (isset($_POST['btntri'])) {
 
 ?>
 <br></br>
+<center>
 <a href= "homepage.php" target="_blank">
-    <img src="../resources/img/rocket.gif" width= "40px" height= "40px">
-</a>
-
-//Footer
+    <img src="../resources/img/rocket.gif" width= "60px" height= "60px">
+</a></center>
+<br></br>
+<!-- Footer -->
 <footer class="bg-dark text-center text-white">
   <!-- Grid container -->
   <div class="container p-4 pb-0">
@@ -159,7 +160,7 @@ if (isset($_POST['btntri'])) {
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2020 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <a class="text-white" href="https://mdbootstrap.com/"></a>
   </div>
   <!-- Copyright -->
 </footer>
